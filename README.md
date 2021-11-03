@@ -13,12 +13,12 @@ Creating...
 
 ## Technical requirements:
 
-Keep the code in Github
-The API must have a read, insert, delete and update interfaces.
-The API must have a method that stream a live update of the current sum of the votes from a given Cryptocurrency
-The API must guarantee the typing of user inputs. If an input is expected as a string, it can only be received as a string.
-The API must contain unit test of methods it uses
-You can choose the database but the structs used with it should support Marshal/Unmarshal with bson, json and struct
+* Keep the code in Github
+* The API must have a read, insert, delete and update interfaces.
+* The API must have a method that stream a live update of the current sum of the votes   from a given Cryptocurrency
+* The API must guarantee the typing of user inputs. If an input is expected as a string, it can only be received as a string.
+* The API must contain unit test of methods it uses
+* You can choose the database but the structs used with it should support Marshal/Unmarshal with bson, json and struct
 
 ## Extra:
 

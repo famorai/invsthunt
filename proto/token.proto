@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package pb;
+
+option go_package = ".;pb";
+
+message Token {
+ string Id = 1;
+ string Name = 2;
+ float Price = 3;
+}
+
+message TokenResultStream {
+  string status = 1;
+  Token token = 2;
+}
+
+message Tokens {
+  repeated Token token = 1;
+}
+
+service TokenService {
+  rpc AddToken (Token) returns (Token);//unary direction
+  rpc AddTokenDetail (Token) returns (stream TokenResultStream);//server stream direction
+  rpc AddTokens (stream Token) returns (Tokens);//client stream direction
+  rpc AddTokenStreamBi (stream Token) returns(stream TokenResultStream);//client, server stream bi direction
+}

@@ -1,0 +1,4 @@
+*.go @famorai
+*.ts @famorai
+*.js @famorai
+.github/ @famorai

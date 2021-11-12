@@ -36,13 +36,6 @@ Job to take snapshots of the votes every hour and plot a graph
    * [Axios](https://github.com/axios/axios)
    * [Mongo Db](https://www.mongodb.com/) -->
    
-   
-## How to Contribute
-
-   * Fork this repository; 
-   * Create a branch with your feature; git checkout -b my-feature;
-   * Commit all changes; git commit -m 'feat: My feature';
-   * Push your branch; git push origin my-feature;
 
  ### Thanks :)
 
